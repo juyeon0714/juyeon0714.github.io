@@ -1,0 +1,101 @@
+*{
+  text-decoration: none !important;
+} /*nav 클릭시 밑줄*/
+
+.menu{
+  color:white;}
+
+body> header{
+   padding:20px;
+ background-image: url(별.JPG);
+ background-repeat: no-repeat;
+ background-size:120%;
+  text-align:center;
+}/*header 장식*/
+
+nav{
+  color: black;
+}
+header h1{
+  color: white;
+}/*header 글자색*/
+
+div>p{
+  color: white;
+  font-size: 150%;
+}/*main 본문  글자속성*/
+
+body{
+  font-family:"맑은 고딕";
+} /*body 폰트 속성*/
+
+#container{
+  width:100%;
+  margin:0 auto;
+}/*main 본문 글자 가운데정렬*/
+
+ul >li. a {
+  color:white !important;
+}
+
+.kim:visited{
+color:white !important;}/*nav 클릭시 글자 색*/
+
+.ju:visited{
+  color:black;
+}/*nav 클릭시 글자 색 검은색으로*/
+
+
+.abcd{
+  font-style: oblique;
+}/*본문 큰제목 기울기설정*/
+
+ul{
+  font-size: 20px;
+}/*nav 글자크기속성*/
+
+nav {
+  border-right: 1px  dotted  gray;
+  width:170px;
+  float:left;
+ height:3000px;
+} /*nav 박스속성*/
+
+
+.movie{
+  float:left;
+  margin-left:7px;
+  margin-right: 5px;
+} /*동영상 속성*/
+
+
+span {
+  color:pink;
+    transition: font-size 5s;
+    margin: 0 auto;
+  }/*main 글자액션*/
+
+
+span:hover {
+    color : orange;
+    font-size: 150%;
+  }/*main 글자액션*/
+span : active{
+    color : blue;
+  }/*main 글자액션*/
+
+.pic{
+   width:200px;
+   height: 200px;
+ }
+ .picbig{
+   position: absolute;
+   width: 0px;
+   -webkit-transition: width 0.3s linear 0s;
+   transition: width 0.3s linear 0s;
+   z-index: 10;
+ }
+ .pic:hover + .picbig{
+   width:400px;
+ }
+/*이미지 팝업 https://youtu.be/ho_qcYPN51g 을 참고했습니다*/
